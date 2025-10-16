@@ -116,13 +116,13 @@ p{
 .card-layanan h4{
     font-size: 24px;
     font-weight: 500;
-    color: black;
+    color:var(--pr-hijau);
     transition: all 0.1s ease-in;
 }
 .card-layanan p{
     font-size: 14px;
     font-weight: 400;
-    color: #000;
+    color:#000;
     transition: all 0.1s ease-in;
 }
 
