@@ -1,0 +1,147 @@
+:root{
+    --pr-hijau:#048853;
+}
+
+
+body{
+    font-family: "Poppins";
+    background-color: #E5E5E5 ;
+}
+
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.accent-banner{
+    z-index: 1;
+}
+
+/* navbar style */
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-link.active{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-masuk{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--pr-hijau);
+}
+.btn-daftar{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+}
+/* navbar end */
+
+/* style hero  */
+#hero{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    height: 100vh;
+}
+.text-hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 70px;
+}
+
+.text-hero p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    width:75%;
+}
+
+.btn-lg{
+    width: 237px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fff;
+    color: var(--pr-hijau);
+    border:none;
+}
+
+
+/* end style hero */
+
+/* layanan style */
+#our-service{
+    padding: 100px 0;
+    width: 100%;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--pr-hijau);
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.card-layanan{
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    transition: all 0.1s ease-in;
+}
+.container-img{
+    height: 70px;
+    width: 70px;
+    background-color: var(--pr-hijau);
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
+}
+.card-layanan h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    transition: all 0.1s ease-in;
+}
+.card-layanan p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    transition: all 0.1s ease-in;
+}
+
+/* hover card */
+.card-layanan:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover .container-img{
+    background-color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover h4{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover p{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+/* end hover card */
+/* end layanan */
