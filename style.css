@@ -145,3 +145,53 @@ p{
 }
 /* end hover card */
 /* end layanan */
+
+/* style temukan rumah */
+#temukan-rumah{
+    height: 100vh;
+    background-image: url(image/interior\ green.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 110px;
+}
+.tmk-rumah{
+    font-size: 48px;
+    font-weight: 700;
+    color:#fff ;
+}
+.sub-tmk-rmh{
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.btn-tab{
+    height: 42px;   
+    color: #000;
+    background-color: rgb(255,255,255, 0.5);
+    border:none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.jual{
+    border-radius: 10px 0 0 0;
+}
+.property{
+    border-radius: 0 10px 0 0;
+}
+
+.btn-tab.active{
+    height: 42px;   
+    color:var(--pr-hijau);
+    background-color: #fff;
+    border:none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: all 0.3s ease-in;
+}
+
+/* end style  temukan rumah */
