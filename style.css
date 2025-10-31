@@ -90,8 +90,8 @@ body{
     width: 100%;
 }
 h1{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 600;
     color: var(--pr-hijau);
 }
 p{
@@ -157,7 +157,7 @@ p{
 .tmk-rumah{
     font-size: 48px;
     font-weight: 700;
-    color:#fff ;
+    color:#fff;
 }
 .sub-tmk-rmh{
     font-size: 18px;
@@ -234,3 +234,18 @@ p{
     color: var(--pr-hijau);
 }
 /* end style  temukan rumah */
+
+/* style rekomendasi rumah */
+#rekomendasi{
+    height: 100vh;
+}
+.card-rek{
+    height: 489px;
+    width: 380px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.card-gbr{
+    height: 280px;
+}
+/* end style rekomendasi rumah */
