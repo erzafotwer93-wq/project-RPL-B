@@ -236,16 +236,43 @@ p{
 /* end style  temukan rumah */
 
 /* style rekomendasi rumah */
-#rekomendasi{
-    height: 100vh;
+.card{
+    height: 460px;
+    border : none;
 }
-.card-rek{
-    height: 489px;
-    width: 380px;
+.card-body h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: .8rem;
+}
+.card-body p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-fasilitas{
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding-top: 10px;
+}
+.card-fasilitas p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #05b46e, #000);
+}
+.card:hover .card-body h4{
+    color: #fff;
+}
+.card:hover .card-body p{
+    color: #fff;
+}
+.card:hover .card-fasilitas{
     background-color: #fff;
-    border-radius: 5px;
 }
-.card-gbr{
-    height: 280px;
-}
+
 /* end style rekomendasi rumah */
